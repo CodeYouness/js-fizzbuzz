@@ -1,0 +1,11 @@
+header div {
+    background-image: url(https://enotecadelfrate.b-cdn.net/wp-content/uploads/2020/05/Copy-of-Copy-of-Untitled-Design-4.png);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    height: calc(100vh - 163px);
+    width: 100%;
+}

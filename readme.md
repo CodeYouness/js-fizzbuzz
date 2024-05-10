@@ -9,6 +9,9 @@ comincio a contare partendo da 1, e mi fermerò una volta arrivato a 100
     per ogni numero controllo se:
 
         se è un multiplo di 3 E non di 5 dico "Fizz" altrimenti
+
         se è un multiplo di 5 E non di 3 dico "Buzz" altrimenti
+
         se è un multiplo di 5 E ANCHE di 3 dico "FizzBuzz" altrimenti
+        
         in tutti gli altri casi dico il numero che ho contato in quel momento
