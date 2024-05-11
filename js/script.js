@@ -1,7 +1,6 @@
 const button = document.querySelector('button')
 const divEl = document.querySelector('#FizzBuzz-container')
-let pillDesign = document.createElement('p')
-pillDesign.classList.add('col-1', 'badge', 'rounded-pill')
+
 
 button.addEventListener('click', function () {
 
@@ -12,9 +11,11 @@ button.addEventListener('click', function () {
         button.classList.add('d-none')
 
         if ((i % 3 === 0) && (i % 5 !== 0)) {
+            let pillDesign = document.createElement('p')
+            pillDesign.classList.add('col-2', 'badge', 'rounded-pill')
+            pillDesign.classList.add('text-bg-primary')
             pillDesign.innerHTML = 'Fizz'
-            pillDesign.appendChild()
-
+            divEl.appendChild(pillDesign);
         } else if ((i % 5 === 0) && (i % 3 !== 0)) {
             console.log('Buzz')
         } else if ((i % 5 === 0) && (i % 3 === 0)) {
