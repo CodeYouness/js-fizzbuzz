@@ -1,4 +1,6 @@
 const button = document.querySelector('button')
+let pillDesign = document.createElement('p')
+pillDesign.classList.add('col-1', 'badge', 'rounded-pill')
 
 button.addEventListener('click', function () {
 
